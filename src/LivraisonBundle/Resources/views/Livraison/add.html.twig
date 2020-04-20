@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block css %}
+{% endblock %}
+{% block NavName %} Delivery List {% endblock %}
+{% block body %}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<button type="submit" >Add</button>
+{{ form_end(form) }}
+{% endblock %}
